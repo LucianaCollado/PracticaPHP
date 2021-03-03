@@ -7,6 +7,7 @@
     <title>Nuevo proyecto</title>
 </head>
 <body>
+    <div class="container">
     <h1>Nuevo proyecto</h1>
     <form action="nuevo.php" method="post">
     <label for="nombre">Nombre <br>
@@ -24,6 +25,6 @@
     <a href="index.php">Cancelar</a>
 
 
-    
+    </div>
 </body>
 </html>
