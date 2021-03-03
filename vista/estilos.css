@@ -1,0 +1,15 @@
+*{  padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+
+h1{
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: solid 1px;
+}
+
+th{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
