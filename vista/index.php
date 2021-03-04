@@ -28,6 +28,8 @@ foreach($row as $dato){?>
     <th><?php echo $dato['id'];?></th>
     <th><?php echo $dato['nombre'];?></th>
     <th><?php echo $dato['tipo'];?></th>
+    <th><a href="index.php?id=<?php echo $dato['id'];?>">Eliminar</a></th>
+    <th><a href="editar.php?id=<?php echo $dato['id'];?>">Editar</a></th>
 </tr>
 <?php } ?>
 

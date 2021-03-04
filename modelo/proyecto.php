@@ -87,7 +87,7 @@ class Proyecto
         }
     }
 
-    public function traerUnTipo()
+    public function traerProyecto()
     {
         try {
             $conexion = new Conexion();
