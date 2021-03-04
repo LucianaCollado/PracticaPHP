@@ -20,8 +20,7 @@
         <input type="text" name="tipo" id="tipo" required value="<?php echo $row['tipo']?>">
         <br>
     <label for="id">Id</label><br>
-
-        <input type="text" name="id" value="<?php echo $row['id']?>">
+        <input type="text" name="id" id="id" value="<?php echo $row['id']?>">
         <br><br>
     <input type="submit" value="Guardar" name="enviar">
     </label>

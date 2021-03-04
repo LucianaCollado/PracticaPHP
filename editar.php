@@ -13,7 +13,15 @@
 <?php
 require_once "modelo/proyecto.php";
 if(isset($_POST['enviar'])){
-
+    $nombre=$_POST['nombre'];
+    $tipo=$_POST['tipo'];
+    $id = $_POST['id'];
+    $proyecto=new Proyecto();
+    $proyecto->setNombre($nombre);
+    $proyecto->setTipo($tipo);
+    $proyecto->setId($id);
+    $proyecto->editar();
+    header("location:index.php");
 
 }else{
     $id=$_GET['id'];
